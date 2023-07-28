@@ -116,7 +116,7 @@ Example command:
 
 Clone this repository to your desired folder:
 
-git clone  git@github.com:Yilikal250/Ruby-oop.git
+git clone  https://github.com/bettytegenu/PortfolioAct.git
 
 <!--
 Example commands:
@@ -187,12 +187,9 @@ Example:
 
 > Mention all of the collaborators of this project.
 
-👤 **Yilikal Teshome**
+👤 **Betelhem Tegenu**
 
-- GitHub: [@Yilikal250](https://github.com/Yilikal250)
-- Twitter: [@TeshomeYilikal](https://twitter.com/TeshomeYilikal)
-- LinkedIn: [yilikal-teshome](www.linkedin.com/in/yilikal-teshome)
-
+- GitHub: [@bettytegenu](https://github.com/bettytegenu/PortfolioAct).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -227,23 +224,9 @@ If you like this project give a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank [Microverse](https://www.microverse.org/) for the opportunity to learn and grow as a developer.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[Was it built with ruby?]**
+- **[Was it built with Js?]**
 
   - [yes it was]
 
@@ -252,14 +235,6 @@ I would like to thank [Microverse](https://www.microverse.org/) for the opportun
   - [Yes i will be creating new programs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
