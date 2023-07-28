@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <navBar> 
+            <img src="image/logo1.jpg" alt="log"> 
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Bakeries</a></li>
+                <li><a href="#contact">Contact</a></li>  
+                <li><form class="" action="#">
+                    <input type="search" placeholder="Type To text.." name="search" class="srch">
+                    <button type="submit" class="btn">Search</button>
+                    </form></li>
+                <img src="icon/close-menu.png" class="menu1" onclick="closemenu()" alt="close-menu">
+            </ul>
+               <img src="icon/open-menu.png" class="menu1" onclick="openmenu()" alt="open-menu">
+        </navBar>
+        
+        <div class="cover">
+            <div class="profile-text">
+                <h3>Hello, It's Me</h3>
+                <h2>Bethelhem Tegenu</h2>
+                <p>And I'm a businessWoman and Manager of Barkot Bakery</p>
+            </div>
+            <img src="image/beti.jpg" id="profileImage">
+        </div>   
+
+        <!-- Cake Slideshow -->
+        <div class="cake-slideshow">
+            <img src="image\2.jpg" class="cake-image" alt="Cake Image">
+            <img src="image\3.jpg" class="cake-image" alt="Cake Image">
+            <img src="image\4.jpg" class="cake-image" alt="Cake Image">
+            
+        </div> 
+        
+    </div>
+</div> 
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-colo">
+                <img src="image/1.jpg" >
+            </div>
+            <div class="about-colt">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hello, I'm Bethelhem Tegenu, the proud owner and manager of Barkot Cake Bakery. Baking has always been my passion, and over the years,
+                     I've crafted delightful cakes that bring joy to people's celebrations. With creativity and dedication, 
+                    I strive to make each cake a unique and memorable experience. Beyond baking, I'm also enthusiastic about photography and love capturing beautiful moments.
+                </p>
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-cont active-tab" id="skills">
+                <ul>
+                    <li><span>business adminstration</span></li>
+                    <li><span>Cloud administrations and applications</span></li>
+                    <li><span>Maintaining local area networks (LAN), wide area networks (WAN)</span></li>
+                    <li><span>Helping employees with technical issues</span></li>
+                    <li><span>Troubleshooting</span></li>
+                </ul>
+               </div>
+               <div class="tab-cont" id="experience">
+                <ul>
+                    <li><span>admin my own bakery Buissness</span></li>
+                    <li><span>worked as teacher in private schools </span></li>
+                  
+                </ul>
+               </div>
+               <div class="tab-cont" id="education">
+                <ul>
+                    <li><span>BSC Degree in physics from University of Gondar</span></li>
+                </ul>
+               </div>
+            </div>     
+        </div>
+    </div>
+</div> 
+<!-- Portfolio -->
+<div id="portfolio">
+     <div class="container">
+        <h1 class="sub-title"> bakeries </h1>
+        <div class="portfolio-list">
+            <div>
+                <h2>Birthday Cakes</h2>
+                <p>Delicious cakes with variety of designs to celebrate birthdays in style!</p>
+                
+            </div>
+            <div> 
+                <h2>Wedding Cakes</h2>
+                <p> Elegant and beautiful cakes for your special day.</p>
+                
+            </div>
+            <div>
+                <h2>Cupcakes & cookies</h2>
+                <p>Celebrate your cooperative events with our tasty cookies!</p>
+               
+            </div>
+        </div>
+     </div>
+</div>
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><img src="icon/message.png" alt="messageicon">  Benathan923@gmail.com</p>
+                <p><img src="icon/telephone_icon.png" alt="phoneicon"> 0961011068</p>
+                <div class="social-icons">
+                    <a href="www.facebook.com"><img src="icon/facebook.png" alt="ficon"></a>
+              
+                    <a href="www.telegram.org"><img src="icon/telegram.png" alt="teicon"></a>
+                   
+                </div> 
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Name" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>powered © Betty tegegn</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+var tabcontents = document.getElementsByClassName("tab-cont")
+function opentab(tabname)
+{
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right ="0";
+}
+function closemenu(){
+    sidemenu.style.right ="-200px";
+}
+</script>
+
+<script src="script.js"></script>
+
+</body>
