@@ -75,9 +75,9 @@ After you're finished please remove all the comments and instructions!
 
 > 
 
-- **[Constructors with parameters]**
-- **[Getters and Setters added ]**
-- **[Inherits from class person]**
+- **[Html tags]**
+- **[css class and id]**
+- **[Js selectors and Dom]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
