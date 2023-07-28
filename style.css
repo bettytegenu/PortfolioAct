@@ -49,11 +49,14 @@ body{
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     animation: bubbleAnimation 2s ease infinite;
-}.profile-text p {
+}
+
+.profile-text p {
     max-width: 600px;
     position: relative;
     font-size: 15px;
     font-weight: bold;
+    margin-left: 20px;
     
 
 }
